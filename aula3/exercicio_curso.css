@@ -1,14 +1,45 @@
 
+* {
+    font-family: Arial;
+}
+
 a {
     background: yellow;
     padding: 10px;
-    text-decoration: none ;
+    text-decoration: none;
     width: 100px;
     height: 20px;
     margin: 10px;
     border-radius: 8px;
 }
+h1 {
+    text-align: center;
+}
 
-.inlineblock {
+div {
+    background: black;
+    border-radius: 4px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #fff;
+    margin: 0;
+}
+
+p {
+    color: #b2b2b2;
+
+}
+.boxen {
     display: inline-block;
+    background: #febe01;
+    padding: 10px;
+    margin: 0px;
+
+}
+span {
+    color: #febe01;
+
 }
